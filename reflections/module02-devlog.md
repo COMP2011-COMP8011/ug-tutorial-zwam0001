@@ -12,7 +12,7 @@ To insert an image:
    ![Image Alt Text](./path/URL/to/image)
 where Image Alt Text should be the desciption of that image for people with low/no vision, and ./path/URL/to/image, is the relative path in your folders to get to the image
 -->
-# Module XX Devlog
+# Module 02 Devlog
 
 ## Proof of Completion
 
