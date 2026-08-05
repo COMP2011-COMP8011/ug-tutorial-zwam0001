@@ -16,57 +16,130 @@ where Image Alt Text should be the desciption of that image for people with low/
 
 ## Proof of Completion
 
-Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonstrating the completed work running in your Codespace.
+![Image Alt Text](./img/playerProfile.png)
+(PlayerProfile.jsx)
+*Description: This image depicts...*
 
 
-**[Insert media here]**
 
-PlayerProfile.jsx 
-
-![Image Alt Text](./tutorials/imgs/playerProfile.png)
-
-
-PlayerStats.jsx
-
-gamelogic.js
-
-App.jsx
-
-main.jsx 
-
-styles.css
-
-Output functionality 
-
-1
-
-2
-
-3
-
-Version Control History 
+![Image Alt Text](./img/playerStats.png)
+(PlayerStats.jsx)
+*Description: This image depicts...*
 
 
-*(Images should be given appropriate names and captions. They should be stored in the `fann1234/tutorials/imgs/` folder.)*
-<!-- 
-to add an image to your doc use a markdown tag in the following structure
-![Image Alt Text](./path/URL/to/image) 
---> 
+
+![Image Alt Text](./img/gameLogic.png)
+(gamelogic.js)
+*Description: This image depicts...*
+
+
+
+![Image Alt Text](./img/app.png)
+(App.jsx)
+*Description: This image depicts...*
+
+
+
+![Image Alt Text](./img/main.png)
+(main.jsx)
+*Description: This image depicts...*
+
+
+
+![Image Alt Text](./img/styles.png)
+(styles.css)
+*Description: This image depicts...*
+
+
+
+![Image Alt Text](./img/output1.png)
+(Output functionality 1)
+*Description: This image depicts...*
+
+
+
+![Image Alt Text](./img/output2.png)
+(Output functionality 2)
+*Description: This image depicts...*
+
+
+
+![Image Alt Text](./img/output3.png)
+(Output functionality 3)
+*Description: This image depicts...*
+
+
+
+![Image Alt Text](./img/versionControlHistory.png)
+(Version Control History)
+*Description: This image depicts...*
 
 **Extension task completed successfully:** [Yes / No]
 <!-- Delete either option based on your work completed -->
 
-**Briefly describe what is happening in the media:**  
-*(e.g., "This shows the Express route successfully validating the user input and returning a 201 status code.")*
+*Question: what is the extension task?*
+
+
 
 ## Concept Mapping
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
 
-- **Concept 1:** [Lecture slide number] — [Concept description in your own words]
-  - **Implementation:** [How it was implemented (i.e., include a code snippet)]
-- **Concept 2:** [Lecture slide number] — [Concept description in your own words]
-  - **Implementation:** [How it was implemented (i.e., include a code snippet)]
+- **Concept 1: Creating a custom component** [Lecture slide number: 21] — []
+  - **Implementation:** [How it was implemented]
+    
+*(Code snippet)*
+import { useState } from 'react';
+import { getPlayerRank } from '../utils./gamelogic.js';
+
+function PlayerProfile() {
+
+//const player = { username: "PixelPioneer", level: 5, active: true };
+const [player, setPlayer] = useState({
+    username: "PixelPioneer",
+    level: 5,
+    active: true
+});
+const { username, level, active } = player;
+
+const handleLevelUp = () => {
+    const updatedPlayer = { ...player, level: level + 1 };
+    //console.log(“Updated player state: “, updatedPlayer);
+    setPlayer(updatedPlayer);
+
+};
+
+return (
+    <>
+         <div className="profile-card">
+             <h2>Player: {username}</h2>
+             <p>Rank: {getPlayerRank(level)}</p>
+             <button onClick={handleLevelUp}>Gain XP</button>
+             {active ? <p>Status: Online</p> : <p>Status: Offline</p>}
+
+         </div>
+    </>
+);
+}
+
+export default PlayerProfile;
+    
+- **Concept 2: Creating the React App** [Lecture slide number: 12] — [To create a react app you've got to initialise a new React application, Navigate into the project directory, and start the local development server.]
+  - **Implementation:** [How it was implemented]
+  
+*(Code snippet)*
+Initialise: 
+npm create vite@latest tutorials/t02 -- --template react
+
+Navigate into project directory: 
+cd tutorials/t02
+npm install
+npm run dev
+
+Start local development server: 
+cd tutorials/t02
+npm run dev
+
 
 ## AI Transparency and Critical Reflection
 
@@ -76,8 +149,8 @@ Detail how Generative AI was used during this lab.
 
 | AI tool used    | Purpose                            | Prompt used                                           | Did you use the output "as is" or modify it? How?                        |
 | :-------------- | :--------------------------------- | :---------------------------------------------------- | :----------------------------------------------------------------------- |
-| *e.g., Copilot* | *Autocomplete for Mongoose Schema* | *Create a Mongoose Schema for a typical user profile* | *Modified: had to fix the data types it suggested for the phone details* |
-| *e.g., ChatGPT* | *Error correction*                 | *Why am I getting a CORS error*                       | *As is: Used its explanation to configure the Express CORS middleware.*  |
+| *Claude* | *Create a new react component that manages an interactive game stat object using immutable state updates with the spread operator, and conditionally renders warning text based on the player's health.* | *https://claude.ai/share/9b260e71-50f5-405a-bb64-c396d0da52cd* | *Used output as is* |
+
 
 ## Analysis and Implications
 
