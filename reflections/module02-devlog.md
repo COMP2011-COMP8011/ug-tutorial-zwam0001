@@ -20,7 +20,11 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 
 **[Insert media here]**
+
 PlayerProfile.jsx 
+
+![Image Alt Text](./tutorials/imgs/playerProfile.png)
+
 
 PlayerStats.jsx
 
