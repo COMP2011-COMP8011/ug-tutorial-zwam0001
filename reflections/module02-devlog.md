@@ -18,7 +18,30 @@ where Image Alt Text should be the desciption of that image for people with low/
 
 Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonstrating the completed work running in your Codespace.
 
+
 **[Insert media here]**
+PlayerProfile.jsx 
+
+PlayerStats.jsx
+
+gamelogic.js
+
+App.jsx
+
+main.jsx 
+
+styles.css
+
+Output functionality 
+
+1
+
+2
+
+3
+
+Version Control History 
+
 
 *(Images should be given appropriate names and captions. They should be stored in the `fann1234/tutorials/imgs/` folder.)*
 <!-- 
