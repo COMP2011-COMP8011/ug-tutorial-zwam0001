@@ -89,6 +89,8 @@ Identify the specific theoretical concepts from this week’s lectures that you 
   - **Implementation:** [How it was implemented]
     
 *(Code snippet)*
+
+```
 import { useState } from 'react';
 import { getPlayerRank } from '../utils./gamelogic.js';
 
@@ -123,22 +125,25 @@ return (
 }
 
 export default PlayerProfile;
-    
-- **Concept 2: Creating the React App** [Lecture slide number: 12] — [To create a react app you've got to initialise a new React application, Navigate into the project directory, and start the local development server.]
-  - **Implementation:** [How it was implemented]
+```
+- **Concept 2: Creating the React App** [Lecture slide number: 12] — To create a react app you've got to initialise a new React application, Navigate into the project directory, and start the local development server.
+  - **Implementation:** - To initialise a new React application I had to navigate to my Codespaces terminal and use Vite as the scaffolding tool, which helped me create a complete React solution skeleton in a single command line instruction. To navigate into the project directory, in terminal I used ```cd``` to move to my desired directory and executed the ```npm install``` command to download all required packages and dependencies listed in my package.json. To start the local development server I changed back to my desired directory and ran the ```npm run dev``` command.
   
 *(Code snippet)*
-Initialise: 
+
+```
+#Initialise 
 npm create vite@latest tutorials/t02 -- --template react
 
-Navigate into project directory: 
+#Navigate into project directory: 
 cd tutorials/t02
 npm install
 npm run dev
 
-Start local development server: 
+#Start local development server: 
 cd tutorials/t02
 npm run dev
+```
 
 
 ## AI Transparency and Critical Reflection
