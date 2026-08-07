@@ -87,7 +87,7 @@ where Image Alt Text should be the desciption of that image for people with low/
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
 
-- **Concept 1: Creating a custom JSX component** [Lecture slide number: 21] — To create a custom JSX component you must define isolated (won't break part of application) reusable (can be placed on many different pages) interface elements pragmatically (through the application of coding logic and programming rules). 
+- **Concept 1: Creating a custom JSX component** [Lecture slide number: 21] — To create a custom JSX component you must define ***isolated*** (won't break part of application) ***reusable*** (can be placed on many different pages) interface elements ***pragmatically*** (through the application of coding logic and programming rules). 
   - **Implementation:** 
     
 *(Code snippet)*
