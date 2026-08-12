@@ -68,7 +68,7 @@ Detail how Generative AI was used during this lab.
 
 | AI tool used    | Purpose                            | Prompt used                                           | Did you use the output "as is" or modify it? How?                        |
 | :-------------- | :--------------------------------- | :---------------------------------------------------- | :----------------------------------------------------------------------- |
-| *e.g., Copilot* | *Autocomplete for Mongoose Schema* | *Create a Mongoose Schema for a typical user profile* | *Modified: had to fix the data types it suggested for the phone details* |
+| *ChatGPT* | *Check for logic and syntax errors preventing code from working during task 3 (Error correction)* | *https://chatgpt.com/share/6a7bd540-e430-83ec-bce4-05a15216fc41* | *Used its explination to correct programming syntax and logic errors* |
 | *e.g., ChatGPT* | *Error correction*                 | *Why am I getting a CORS error*                       | *As is: Used its explanation to configure the Express CORS middleware.*  |
 
 <br><br>
