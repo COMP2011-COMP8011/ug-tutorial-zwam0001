@@ -15,8 +15,8 @@ where Image Alt Text should be the desciption of that image for people with low/
 # Module 03 Devlog
 
 ## Proof of Completion
-
 Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonstrating the completed work running in your Codespace.
+<br><br>
 
 **[Insert media here]**
 
@@ -26,20 +26,39 @@ to add an image to your doc use a markdown tag in the following structure
 ![Image Alt Text](./path/URL/to/image) 
 --> 
 
-**Extension task completed successfully:** [Yes / No]
-<!-- Delete either option based on your work completed -->
-
 **Briefly describe what is happening in the media:**  
 *(e.g., "This shows the Express route successfully validating the user input and returning a 201 status code.")*
+
+**Extension task completed successfully:** [Yes / No]
+<!-- Delete either option based on your work completed -->
+<br><br>
+<br><br>
 
 ## Concept Mapping
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
 
-- **Concept 1:** [Lecture slide number] — [Concept description in your own words]
-  - **Implementation:** [How it was implemented (i.e., include a code snippet)]
-- **Concept 2:** [Lecture slide number] — [Concept description in your own words]
-  - **Implementation:** [How it was implemented (i.e., include a code snippet)]
+**Concept 1: Passing and using props** *[Lecture slide number: 25]* 
+[Concept description in your own words]
+<br><br>
+
+**Implementation:** [How it was implemented (i.e., include a code snippet)]
+
+*(Code snippet)*
+
+<br><br>
+
+**Concept 2: Designing UI with component types** *[Lecture slide number: 20]* 
+[Concept description in your own words]
+<br><br>
+
+**Implementation:** [How it was implemented (i.e., include a code snippet)]
+
+*(Code snippet)*
+
+<br><br>
+<br><br>
+
 
 ## AI Transparency and Critical Reflection
 
@@ -51,10 +70,13 @@ Detail how Generative AI was used during this lab.
 | :-------------- | :--------------------------------- | :---------------------------------------------------- | :----------------------------------------------------------------------- |
 | *e.g., Copilot* | *Autocomplete for Mongoose Schema* | *Create a Mongoose Schema for a typical user profile* | *Modified: had to fix the data types it suggested for the phone details* |
 | *e.g., ChatGPT* | *Error correction*                 | *Why am I getting a CORS error*                       | *As is: Used its explanation to configure the Express CORS middleware.*  |
+<br><br>
+<br><br>
 
 ## Analysis and Implications
 
 In 2-3 sentences, reflect on the implications of AI assistance that you received this week. Consider academic integrity, security, or whether the AI obscured your understanding of the core concept.
+<br><br>
 
 **Reflection:**  
 [Write your reflection here]
