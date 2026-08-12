@@ -70,6 +70,7 @@ Detail how Generative AI was used during this lab.
 | :-------------- | :--------------------------------- | :---------------------------------------------------- | :----------------------------------------------------------------------- |
 | *e.g., Copilot* | *Autocomplete for Mongoose Schema* | *Create a Mongoose Schema for a typical user profile* | *Modified: had to fix the data types it suggested for the phone details* |
 | *e.g., ChatGPT* | *Error correction*                 | *Why am I getting a CORS error*                       | *As is: Used its explanation to configure the Express CORS middleware.*  |
+
 <br><br>
 <br><br>
 
