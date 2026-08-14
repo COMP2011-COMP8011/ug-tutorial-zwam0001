@@ -7,7 +7,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 **[Insert media here]**
 
 #1
-![Image Alt Text](./workspace/tutorials/img/tut3/Header.png) 
+![Image Alt Text](../img/tut3/Header.png) 
 
 (Header.jsx)
 <br><br>
@@ -23,7 +23,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #3
-![Image Alt Text](./workspace/tutorials/img/tut3/App.png) 
+![Image Alt Text](../img/tut3/App.png) 
 
 (App.jsx)
 <br><br>
@@ -31,7 +31,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #4
-![Image Alt Text](./workspace/tutorials/img/tut3/Styles.png) 
+![Image Alt Text](../img/tut3/Styles.png) 
 
 (Styles.css)
 <br><br>
@@ -39,8 +39,8 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 $5 
-![Image Alt Text](./workspace/tutorials/img/tut3/Output1.png) 
-![Image Alt Text](./workspace/tutorials/img/tut3/Output1.png) 
+![Image Alt Text](../img/tut3/Output1.png) 
+![Image Alt Text](../img/tut3/Output1.png) 
 
 (Output)
 <br><br>
