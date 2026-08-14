@@ -40,7 +40,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 $5 
 ![Image Alt Text](../img/tut3/Output1.png) 
-![Image Alt Text](../img/tut3/Output1.png) 
+![Image Alt Text](../img/tut3/Output2.png) 
 
 (Output)
 <br><br>
