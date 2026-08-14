@@ -7,38 +7,43 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 **[Insert media here]**
 
 #1
-![Image Alt Text](./path/tut3/Header.png) 
+![Image Alt Text](./path/Header.png) 
 
 (Header.jsx)
+<br><br>
 *Description: Created a component 'Header'*
 <br><br>
 
 #2
-![Image Alt Text](./path/tut3/CourseModule.png) 
+![Image Alt Text](./path/CourseModule.png) 
 
 (CourseModule.jsx)
+<br><br>
 *Description: Created a componet 'CourseModule' using the destructure process.*
 <br><br>
 
 #3
-![Image Alt Text](./path/tut3/App.png) 
+![Image Alt Text](./path/App.png) 
 
 (App.jsx)
+<br><br>
 *Description: This image depicts App.jsx where I tranformed data array into a list of JSX elements using .map() to avoid hard coding data. I also endered the list by expanding the data structure to handle nested collections safely.*
 <br><br>
 
 #4
-![Image Alt Text](./path/tut3/Styles.png) 
+![Image Alt Text](./path/Styles.png) 
 
 (Styles.css)
+<br><br>
 *Description: Edited style of app by defining own CSS.*
 <br><br>
 
 $5 
-![Image Alt Text](./path/tut3/Output1.png) 
-![Image Alt Text](./path/tut3/Output1.png) 
+![Image Alt Text](./path/Output1.png) 
+![Image Alt Text](./path/Output1.png) 
 
 (Output)
+<br><br>
 *Description: This image depicts the final output of the app.*
 <br><br>
 
