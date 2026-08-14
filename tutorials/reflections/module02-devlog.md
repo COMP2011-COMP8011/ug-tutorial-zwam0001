@@ -6,7 +6,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #1
-![Image Alt Text](./img/playerProfile.png)
+![Image Alt Text](./tutorials/img/tut2/playerProfile.png)
 
 (PlayerProfile.jsx)
 <br><br>
@@ -14,7 +14,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #2
-![Image Alt Text](./img/playerStats.png)
+![Image Alt Text](./tutorials/img/tut2/playerStats.png)
 
 (PlayerStats.jsx)
  <br><br>
@@ -22,7 +22,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #3
-![Image Alt Text](./img/gameLogic.png)
+![Image Alt Text](./tutorials/img/tut2/gameLogic.png)
 
 (gamelogic.js)
 <br><br>
@@ -30,7 +30,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #4
-![Image Alt Text](./img/app.png)
+![Image Alt Text](./tutorials/img/tut2/app.png)
 
 (App.jsx)
 <br><br>
@@ -38,7 +38,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #5
-![Image Alt Text](./img/main.png)
+![Image Alt Text](./tutorials/img/tut2/main.png)
 
 (main.jsx)
 <br><br>
@@ -46,7 +46,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #6
-![Image Alt Text](./img/styles.png)
+![Image Alt Text](./tutorials/img/tut2/styles.png)
 
 (styles.css)
 <br><br>
@@ -54,7 +54,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #7
-![Image Alt Text](./img/output1.png)
+![Image Alt Text](./tutorials/img/tut2/output1.png)
 
 (Output functionality 1)
 <br><br>
@@ -62,7 +62,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #8
-![Image Alt Text](./img/output2.png)
+![Image Alt Text](./tutorials/img/tut2/output2.png)
 
 (Output functionality 2)
 <br><br>
@@ -70,7 +70,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #9
-![Image Alt Text](./img/output3.png)
+![Image Alt Text](./tutorials/img/tut2/output3.png)
 
 (Output functionality 3)
 <br><br>
@@ -78,7 +78,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #10
-![Image Alt Text](./img/versionControlHistory.png)
+![Image Alt Text](./tutorials/img/tut2/versionControlHistory.png)
 
 (Version Control History)
 <br><br>
