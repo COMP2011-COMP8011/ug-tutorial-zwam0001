@@ -10,7 +10,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (PlayerProfile.jsx)
 <br><br>
-*Description: Created and defined a component that serves as a profile for the player. I defined an export statement to ensure that other components have access to this one. I then  defined a const JavaScript object, assigned it an object that represents the players properties (username, level, action) and hardcoded the data. Additionally, i used object destructuring to extract specific properties into distinct variables cleanly, added function + logic that handles level up action, imported gamelogic.jsx to get player rank, and added a return statement to send resulting values back to place where it was called.*
+***Description:*** *Created and defined a component that serves as a profile for the player. I defined an export statement to ensure that other components have access to this one. I then  defined a const JavaScript object, assigned it an object that represents the players properties (username, level, action) and hardcoded the data. Additionally, i used object destructuring to extract specific properties into distinct variables cleanly, added function + logic that handles level up action, imported gamelogic.jsx to get player rank, and added a return statement to send resulting values back to place where it was called.*
 <br><br>
 
 #2
@@ -18,7 +18,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (PlayerStats.jsx)
 <br><br>
-*Description: Added a new component that allows players to take damage and search for loot. Additionally, it tracks the players HP each time they take damage and accumulation of Gold each time they find loot. This component also spits out a health status according to how much HP each player has ('Warning: Low Health' or 'Status: Healthy'. *
+***Description:*** *Added a new component that allows players to take damage and search for loot. Additionally, it tracks the players HP each time they take damage and accumulation of Gold each time they find loot. This component also spits out a health status according to how much HP each player has ('Warning: Low Health' or 'Status: Healthy'). *
 <br><br>
 
 #3
@@ -26,7 +26,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (gamelogic.js)
 <br><br>
-*Description: Created a standard JavaScript file and defined a function ```getPlayerRank``` which takes a level and categorises it under either master, adept, novice.*
+***Description:*** *Created a standard JavaScript file and defined a function ```getPlayerRank``` which takes a level and categorises it under either master, adept, novice.*
 <br><br>
 
 #4
@@ -34,7 +34,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (App.jsx)
 <br><br>
-*Description: Edited App.jsx so that I could access the player profile from PlayerProfile.jsx, styles.css, and player stats from PlayerStats.jsx.*
+***Description:*** *Edited App.jsx so that I could access the player profile from PlayerProfile.jsx, styles.css, and player stats from PlayerStats.jsx.*
 <br><br>
 
 #5
@@ -42,7 +42,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (main.jsx)
 <br><br>
-*Description: Edited main.jsx to import styles from styles.css, to apply global CSS configuration across my entire app.*
+***Description:*** *Edited main.jsx to import styles from styles.css, to apply global CSS configuration across my entire app.*
 <br><br>
 
 #6
@@ -50,7 +50,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (styles.css)
 <br><br>
-*Description: Edited style of app by defining own CSS.*
+***Description:*** *Edited style of app by defining own CSS.*
 <br><br>
 
 #7
@@ -58,7 +58,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (Output functionality 1)
 <br><br>
-*Description: This image depicts first functionality test of app.*
+***Description:*** *This image depicts first functionality test of app.*
 <br><br>
 
 #8
@@ -66,7 +66,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (Output functionality 2)
 <br><br>
-*Description: This image depicts second functionality test of app*
+***Description:*** *This image depicts second functionality test of app*
 <br><br>
 
 #9
@@ -74,7 +74,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (Output functionality 3)
 <br><br>
-*Description: This image depicts third functionality test of app*
+***Description:*** *This image depicts third functionality test of app*
 <br><br>
 
 #10
@@ -82,7 +82,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (Version Control History)
 <br><br>
-*Description: All my commits and pull requests to Github (Saving my updates as I created and edited each file.)*
+***Description:*** *All my commits and pull requests to Github (Saving my updates as I created and edited each file.)*
 <br><br>
 
 **Extension task completed successfully:** [Yes / No]

@@ -9,7 +9,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (Header.jsx)
 <br><br>
-*Description: Created a component 'Header'*
+***Description:*** *Created a component 'Header'*
 <br><br>
 
 #2
@@ -17,7 +17,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (CourseModule.jsx)
 <br><br>
-*Description: Created a componet 'CourseModule' using the destructure process.*
+***Description:*** *Created a componet 'CourseModule' using the destructure process.*
 <br><br>
 
 #3
@@ -25,7 +25,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (App.jsx)
 <br><br>
-*Description: This image depicts App.jsx where I tranformed data array into a list of JSX elements using .map() to avoid hard coding data. I also endered the list by expanding the data structure to handle nested collections safely.*
+***Description:*** *This image depicts App.jsx where I tranformed data array into a list of JSX elements using .map() to avoid hard coding data. I also endered the list by expanding the data structure to handle nested collections safely.*
 <br><br>
 
 #4
@@ -33,7 +33,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (Styles.css)
 <br><br>
-*Description: Edited style of app by defining own CSS.*
+***Description:*** *Edited style of app by defining own CSS.*
 <br><br>
 
 #5 
@@ -42,7 +42,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 (Output)
 <br><br>
-*Description: This image depicts the final output of the app.*
+***Description:*** *This image depicts the final output of the app.*
 <br><br>
 
 **Extension task completed successfully:** [Yes / No]
@@ -62,7 +62,7 @@ Props let a parent component send data down to a child component. the parent pas
 
 **Implementation:** 
 <br><br>
-within this tutorial the paarent component is 'App.jsx' and it passes props to the child component 'CourseModule.jsx'. 'CourseModule.jsx' recieves the daa through object destructuring. 
+Within this tutorial the paarent component is 'App.jsx' and it passes props to the child component 'CourseModule.jsx'. 'CourseModule.jsx' recieves the daa through object destructuring. 
 
 *(Code snippet)*
 App.jsx (Parent)
