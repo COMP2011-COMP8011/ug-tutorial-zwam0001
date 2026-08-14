@@ -76,9 +76,8 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 **Extension task completed successfully:** [Yes / No]
-<!-- Delete either option based on your work completed -->
+YES
 
-*Question: what is the extension task?*
 <br><br>
 <br><br>
 

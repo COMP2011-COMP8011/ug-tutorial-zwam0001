@@ -1,17 +1,3 @@
-<!-- 
-Basic markdown tags
-Single Asterisk * before and after text will make that text italic
-Double Asterisk ** before and after text will make that text bold
-# Heading 1
-## Heading 2
-- at the start of a line creates a dot point list item
-1. at the start of a line creates a numbered list item
-A vertical bar | defines the start of a table cell, use another vertical bar | to close off the table cell
-Backticks ` around text will format that text as code
-To insert an image: 
-   ![Image Alt Text](./path/URL/to/image)
-where Image Alt Text should be the desciption of that image for people with low/no vision, and ./path/URL/to/image, is the relative path in your folders to get to the image
--->
 # Module 03 Devlog
 
 ## Proof of Completion
@@ -20,17 +6,45 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 **[Insert media here]**
 
-*(Images should be given appropriate names and captions. They should be stored in the `fann1234/tutorials/imgs/` folder.)*
-<!-- 
-to add an image to your doc use a markdown tag in the following structure
-![Image Alt Text](./path/URL/to/image) 
---> 
+#1
+![Image Alt Text](./path/tut3/Header.png) 
 
-**Briefly describe what is happening in the media:**  
-*(e.g., "This shows the Express route successfully validating the user input and returning a 201 status code.")*
+(Header.jsx)
+*Description: Created a component 'Header'*
+<br><br>
+
+#2
+![Image Alt Text](./path/tut3/CourseModule.png) 
+
+(CourseModule.jsx)
+*Description: Created a componet 'CourseModule' using the destructure process.*
+<br><br>
+
+#3
+![Image Alt Text](./path/tut3/App.png) 
+
+(App.jsx)
+*Description: This image depicts App.jsx where I tranformed data array into a list of JSX elements using .map() to avoid hard coding data. I also endered the list by expanding the data structure to handle nested collections safely.*
+<br><br>
+
+#4
+![Image Alt Text](./path/tut3/Styles.png) 
+
+(Styles.css)
+*Description: Edited style of app by defining own CSS.*
+<br><br>
+
+$5 
+![Image Alt Text](./path/tut3/Output1.png) 
+![Image Alt Text](./path/tut3/Output1.png) 
+
+(Output)
+*Description: This image depicts the final output of the app.*
+<br><br>
 
 **Extension task completed successfully:** [Yes / No]
-<!-- Delete either option based on your work completed -->
+YES
+
 <br><br>
 <br><br>
 
@@ -45,6 +59,9 @@ Identify the specific theoretical concepts from this week’s lectures that you 
 **Implementation:** [How it was implemented (i.e., include a code snippet)]
 
 *(Code snippet)*
+```
+
+```
 
 <br><br>
 
@@ -55,6 +72,9 @@ Identify the specific theoretical concepts from this week’s lectures that you 
 **Implementation:** [How it was implemented (i.e., include a code snippet)]
 
 *(Code snippet)*
+```
+
+```
 
 <br><br>
 <br><br>
@@ -80,4 +100,4 @@ In 2-3 sentences, reflect on the implications of AI assistance that you received
 <br><br>
 
 **Reflection:**  
-[Write your reflection here]
+This week I used AI to help me correct a programming mistake I made, rather than telling it to just write the code for me. The explaination it gave me and the mistakes that it highlighted really helped me understand this weeks content.
