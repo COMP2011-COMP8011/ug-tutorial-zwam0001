@@ -58,7 +58,6 @@ Identify the specific theoretical concepts from this week’s lectures that you 
 **Concept 1: Passing and using props** *[Lecture slide number: 25]* 
 <br><br>
 Props let a parent component send data down to a child component. the parent passes data and the child recieves all these props compiled into a single object.
-
 <br><br>
 
 **Implementation:** 
@@ -137,13 +136,11 @@ export default CourseModule;
 **Concept 2: Designing UI with component types** *[Lecture slide number: 20]* 
 <br><br>
 Data/state flows downward, form parent to child through props. Stateful parent owns the data that can change, using ```useState``` and the stateless child recieves data via props and displays it. The child component has no state of its own, it just shows whatever it is given. 
-
 <br><br>
 
 **Implementation:** 
-Within the context of tut3, 'App.jsx' acts like the data owning parent as it holds module data and is responsible for managing it. 'CourseModule.jsx' is the stateless child that recives props ```(title, description, topics)``` and renders them. 
-
-data flows down from App.jsx to CouseModule.jsx
+<br><br>
+Within the context of tut3, 'App.jsx' acts like the data owning parent as it holds module data and is responsible for managing it.'CourseModule.jsx' is the stateless child that recives props ```(title, description, topics)``` and renders them. Data flows down from App.jsx to CouseModule.jsx
 
 *(Code snippet)*
 App.jsx (Parent)
@@ -237,4 +234,5 @@ In 2-3 sentences, reflect on the implications of AI assistance that you received
 <br><br>
 
 **Reflection:**  
+<br><br>
 This week I used AI to help me correct a programming mistake I made, rather than telling it to just write the code for me. The explaination it gave me and the mistakes that it highlighted really helped me understand this weeks content.

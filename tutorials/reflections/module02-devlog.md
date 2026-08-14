@@ -17,7 +17,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 ![Image Alt Text](../img/tut2/playerStats.png)
 
 (PlayerStats.jsx)
- <br><br>
+<br><br>
 *Description: Added a new component that allows players to take damage and search for loot. Additionally, it tracks the players HP each time they take damage and accumulation of Gold each time they find loot. This component also spits out a health status according to how much HP each player has ('Warning: Low Health' or 'Status: Healthy'. *
 <br><br>
 
@@ -101,6 +101,7 @@ To create a custom JSX component you must define ***isolated*** (won't break par
 <br><br>
 
 **Implementation:**
+<br><br>
 Created 'PlayerProfile.jsx' file. All its logic and state (the ```player``` object managed by ```useState```, and ```handleLevelUp```) live entirely inside the function's own scope, so nothing outside can accidentally break it, and it doesn't depend on anything outside itself except the imported getPlayerRank helper. 'PlayerProfile.jsx' is exported (export default 'PlayerProfile.jsx') and takes the form of a self-contained function with no external data required to work, meaning it could be dropped onto multiple pages of the app and would render the same self-managed profile card each time.
     
 *(Code snippet)*
@@ -149,6 +150,7 @@ To create a react app you've got to initialise a new React application, Navigate
 <br><br>
 
 **Implementation:**
+<br><br>
 To initialise a new React application I had to navigate to my Codespaces terminal and use Vite as the scaffolding tool, which helped me create a complete React solution skeleton in a single command line instruction. To navigate into the project directory, in terminal I used ```cd``` to move to my desired directory and executed the ```npm install``` command to download all required packages and dependencies listed in my package.json. To start the local development server I changed back to my desired directory and ran the ```npm run dev``` command.
   
 *(Code snippet)*
@@ -187,4 +189,5 @@ In 2-3 sentences, reflect on the implications of AI assistance that you received
 <br><br>
 
 **Reflection:**  
+<br><br>
 I think the AI somewhat obscured my ability to create my own custom jsx component, I think by making the AI write my PlayerStats.jsx file it prevented me from understanding the programming logic aspect of creating a custom jsx component. I don't think my programming and coding knowledge is deep enough and AI makes it worse since I'm not challenged to understand via application. Maybe next week I'll try not to rely on AI for programming and instead use it more so for composing the weekly reflections. 
