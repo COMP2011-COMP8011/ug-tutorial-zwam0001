@@ -89,13 +89,14 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 YES
 
 <br><br>
-<br><br>
+
 
 ## Concept Mapping
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
 
 **Concept 1: Creating a custom JSX component** *[Lecture slide number: 21]*
+<br><br>
 To create a custom JSX component you must define ***isolated*** (won't break part of application) ***reusable*** (can be placed on many different pages) interface elements ***pragmatically*** (through the application of coding logic and programming rules). 
 <br><br>
 
@@ -143,6 +144,7 @@ export default PlayerProfile;
 <br><br>
 
 - **Concept 2: Creating the React App** [Lecture slide number: 12]
+<br><br>
 To create a react app you've got to initialise a new React application, Navigate into the project directory, and start the local development server.
 <br><br>
 
@@ -165,7 +167,7 @@ cd tutorials/t02
 npm run dev
 ```
 <br><br>
-<br><br>
+
 
 ## AI Transparency and Critical Reflection
 
@@ -178,7 +180,7 @@ Detail how Generative AI was used during this lab.
 | *Claude* | *Create a new react component that manages an interactive game stat object using immutable state updates with the spread operator, and conditionally renders warning text based on the player's health.* | *https://claude.ai/share/9b260e71-50f5-405a-bb64-c396d0da52cd* | *Used output as is* |
 
 <br><br>
-<br><br>
+
 
 ## Analysis and Implications
 In 2-3 sentences, reflect on the implications of AI assistance that you received this week. Consider academic integrity, security, or whether the AI obscured your understanding of the core concept.

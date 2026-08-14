@@ -49,18 +49,20 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 YES
 
 <br><br>
-<br><br>
+
 
 ## Concept Mapping
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
 
 **Concept 1: Passing and using props** *[Lecture slide number: 25]* 
+<br><br>
 Props let a parent component send data down to a child component. the parent passes data and the child recieves all these props compiled into a single object.
 
 <br><br>
 
 **Implementation:** 
+<br><br>
 within this tutorial the paarent component is 'App.jsx' and it passes props to the child component 'CourseModule.jsx'. 'CourseModule.jsx' recieves the daa through object destructuring. 
 
 *(Code snippet)*
@@ -132,8 +134,8 @@ export default CourseModule;
 ```
 <br><br>
 
-**Concept 2: Designing UI with component types** 
-*[Lecture slide number: 20]* 
+**Concept 2: Designing UI with component types** *[Lecture slide number: 20]* 
+<br><br>
 Data/state flows downward, form parent to child through props. Stateful parent owns the data that can change, using ```useState``` and the stateless child recieves data via props and displays it. The child component has no state of its own, it just shows whatever it is given. 
 
 <br><br>
@@ -212,7 +214,7 @@ export default CourseModule;
 ```
 
 <br><br>
-<br><br>
+
 
 
 ## AI Transparency and Critical Reflection
@@ -227,7 +229,7 @@ Detail how Generative AI was used during this lab.
 
 
 <br><br>
-<br><br>
+
 
 ## Analysis and Implications
 
