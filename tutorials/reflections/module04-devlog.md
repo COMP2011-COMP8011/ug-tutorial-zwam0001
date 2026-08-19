@@ -22,82 +22,32 @@ YES
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
 
-**Concept 1: Functional** *[Lecture slide number: 13]* 
+**Concept 1: Functional state updates** *[Lecture slide number: 13]* 
 <br><br>
-Props let a parent component send data down to a child component. the parent passes data and the child recieves all these props compiled into a single object.
+Functional updates are when you update state using a function rather than a direct value, they work best in cases where the new state is dependent on the new state.
 <br><br>
 
 **Implementation:** 
 <br><br>
-Within this tutorial the paarent component is 'App.jsx' and it passes props to the child component 'CourseModule.jsx'. 'CourseModule.jsx' recieves the daa through object destructuring. 
+Within this example I defined 2 arrow functions ```increment``` and ```plusFive```. I then went on to pass a call back function into 
+```setScore```, so that React would automatically provide the most up to date value to this callback. I then labeld the paramenter ```prevScore``` and returned prevScore + 1 for ```increment``` and prevScore + 5 for ```plusFive```, to ensure the update calculates correctly.
+
 
 *(Code snippet)*
-App.jsx (Parent)
+ScoreBoard.jsx
 ```
-import Header from './components/Header.jsx'
-import CourseModule from './components/CourseModule.jsx'
-import './styles.css'
+    const [score, setScore] = useState(0);
 
-function App() {
-const moduleData = [
-  { 
-    id: 1, 
-    title: "Introduction to React & Vite", 
-    description: "Scaffolding modern environments replacing older legacy bundlers.",
-    topics: ["Vite Initialization", "NPM Dependencies", "Hot Module Replacement"]
-  },
-  { 
-    id: 2, 
-    title: "Component-Based Architecture", 
-    description: "Dividing interfaces into independent, reusable structural blocks.", 
-    topics: ["JSX Syntax", "Functional Components", "React Fragments"]
-  },
-  { 
-    id: 3, 
-    title: "Unidirectional Data Flow", 
-    description: "Passing immutable arguments securely into functional components.",
-    topics: ["The Props Object", "Object Destructuring", "Array Mapping", "Virtual DOM Keys"]
-  },
-];
+    const increment = () => {
+        setScore(prevScore => prevScore + 1);
+};
 
-  return (
-    <div className="app-container">
-      <Header/>
-      {moduleData.map((module) => (
-        <CourseModule
-          key={module.id}
-          title={module.title}
-          description={module.description}
-          topics={module.topics}
-        />
-      ))}
-    </div>
-  );
-}
+    const plusFive = () => {
+        setScore((prevScore) => prevScore + 5);
+};
 
-export default App
 ```
-CourseModule.jsx (Child)
-```
-function CourseModule({ title, description, topics = [] }) { 
-    return(
-     <section className="module-card">
-      <h2>{title}</h2>
-      <p>{description}</p>
 
-      {topics.length > 0 && (
-        <ul className="topic-list">
-          {topics.map((topic) => (
-            <li key={topic}>{topic}</li>
-          ))}
-        </ul>
-      )}
-    </section>
-    );
- }
-
-export default CourseModule;
-```
 <br><br>
 
 **Concept 2: Designing UI with component types** *[Lecture slide number: 20]* 
