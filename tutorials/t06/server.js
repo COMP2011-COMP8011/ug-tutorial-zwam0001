@@ -4,6 +4,12 @@ const PORT = 3000;
  
 app.use(express.json());
 
+function logger(req, res, next) {
+  console.log(`[LOG] ${req.method} request received at ${req.url}`);
+  next(); // without this the server hangs
+}
+app.use(logger);
+
 let students = [
   { id: 1, name: "Alice", major: "Math" },
   { id: 2, name: "Bob", major: "Physics" },
@@ -49,10 +55,25 @@ app.put("/api/students/:id", (req, res) => {
   res.status(200).json(student);
 });
  
-// checkAuth sits between the URL string and the handler
+
 app.delete("/api/students/:id", checkAuth, (req, res) => {
   const targetId = parseInt(req.params.id);
   students = students.filter((st) => st.id !== targetId);
   res.status(204).send();
 });
+
+app.get("/api/test-error", (req, res, next) => {
+  next(new Error("This is a deliberate test error!"));
+});
+ 
+
+app.use((err, req, res, next) => {
+  console.error("Critical System Failure: ", err.stack);
+  res.status(500).json({ error: "Internal Server Error" });
+});
+ 
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+
 
