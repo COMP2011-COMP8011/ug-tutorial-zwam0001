@@ -17,6 +17,14 @@ let students = [
   { id: 4, name: "Dev", major: "Biology" },
 ];
 
+function checkAuth(req, res, next) {
+  if (req.headers.authorization === "admin123") {
+    return next();
+  }
+  // Intentionally skip next(): halt the pipeline here
+  return res.status(401).json({ error: "Unauthorized: invalid or missing token." });
+}
+
 app.get("/api/students", (req, res) => {
   if (req.query.major) {
     const filtered = students.filter((st) => st.major === req.query.major);
