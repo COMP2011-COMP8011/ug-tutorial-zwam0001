@@ -23,28 +23,28 @@ YES
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
 
-**Concept 1: Passing and using props** *[Lecture slide number: 25]* 
-<br><br>
-
+**Concept 1: Mongoose connection logic (async/await with try/catch)** *[Lecture slide number: 12]* 
 <br><br>
 
 **Implementation:** 
+Connecting to MongoDB is an asynchronous network operation. connectDB waits for mongoose.connect() inside a try/catch. If the connection fails, it exits the process rather thatn leaving a running server with no database. 
 <br><br>
 
 
 *(Code snippet)*
-
-**Concept 2: Passing and using props** *[Lecture slide number: 25]* 
+![Image Alt Text](../img/tut7/t07cm1.png) 
 <br><br>
 
+**Concept 2: Schema validation with custom error messages, defaults and unique** *[Lecture slide number: 17]* 
 <br><br>
 
 **Implementation:** 
+In models/user.js, the user schema used required: [true, "message"] to enforce mandatory fields with a readable error. It used unique: true to block duplicate emails and default to fill in role automatically. The duplicate-email E11000 error seen when re-sending the request came from unique: true 
 <br><br>
 
 
 *(Code snippet)*
-
+![Image Alt Text](../img/tut7/t07cm2.png) 
 <br><br>
 
 

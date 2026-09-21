@@ -8,7 +8,6 @@ import User from "./models/User.js";
 const app = express();
 app.use(express.json());
  
-// Database connection logic
 const connectDB = async () => {
     try {
         await mongoose.connect(process.env.MONGO_URI);

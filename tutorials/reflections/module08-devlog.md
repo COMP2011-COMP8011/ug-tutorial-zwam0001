@@ -17,33 +17,51 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 YES
 
 <br><br>
-
+<br><br>
 
 ## Concept Mapping
 
 Identify the specific theoretical concepts from this week’s lectures that you applied to solve the practical work for this week.
-
-**Concept 1: Passing and using props** *[Lecture slide number: 25]* 
 <br><br>
 
+**Concept 1: Route-specific middleware (authentication gatekeeper)** *[Lecture slide number: 29]* 
 <br><br>
 
 **Implementation:** 
+checkAuth is a standalone middleware funtion. It compares the Authorisation header to the token and calls next() on a match. Otherwise it skips next() and returns a 401, so the delete handler never runs. It is injected into only the DELETE route, between the URL nad the handler, instead of being mounted globally. 
 <br><br>
 
 
 *(Code snippet)*
+```
+function checkAuth(req, res, next) {
+  if (req.headers.authorization === "admin123") {
+    return next();
+  }
+  // Intentionally skip next(): halt the pipeline here
+  return res.status(401).json({ error: "Unauthorized: invalid or missing token." });
+}
 
-**Concept 2: Passing and using props** *[Lecture slide number: 25]* 
+app.delete("/api/students/:id", checkAuth, (req, res) => {
+  const targetId = parseInt(req.params.id);
+  students = students.filter((st) => st.id !== targetId);
+  res.status(204).send();
+});
+```
 <br><br>
 
+**Concept 2: Handling query strings in express** *[Lecture slide number: 24]* 
 <br><br>
 
 **Implementation:** 
+The GET /api/students route reads the optional ?major- filter from req.query. If it's present, the route returns only the matching students. If it's absent, it returns the full array. 
 <br><br>
 
 
 *(Code snippet)*
+![Image Alt Text](../img/tut6/t06cm2.png) 
+
+
 
 <br><br>
 
