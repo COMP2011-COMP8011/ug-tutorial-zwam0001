@@ -1,0 +1,7 @@
+POST http://localhost:5100/api/test-setup
+Content-Type: application/json
+
+{
+    "username": "Jane Doe",
+    "email": "jane@uni.edu.au"
+}
