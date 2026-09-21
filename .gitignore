@@ -69,3 +69,7 @@ dump.rdb
 *.tmp
 *.temp
 .cache/
+
+# Add .env and node_modules/ to the .gitignore file
+node_modules/
+.env
