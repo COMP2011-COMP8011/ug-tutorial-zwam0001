@@ -5,7 +5,7 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #1
-![Image Alt Text](../img/) 
+![Image Alt Text](../img/tut7/t07proof.gif) 
 
 ()
 <br><br>
