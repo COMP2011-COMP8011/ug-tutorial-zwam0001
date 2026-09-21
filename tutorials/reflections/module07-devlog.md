@@ -5,11 +5,22 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 <br><br>
 
 #1
-![Image Alt Text](../img/tut7/to7proof.gif) 
-
-()
+![Image Alt Text](../img/tut7/t07proof1.png) 
+(1)
 <br><br>
-***Description:*** *Code in Use*
+***Description:*** *checking for sucessful connection*
+<br><br>
+
+![Image Alt Text](../img/tut7/t07proof2.png) 
+(2)
+<br><br>
+***Description:*** *adding a new element to table*
+<br><br>
+
+![Image Alt Text](../img/tut7/t07proof3.png) 
+(3)
+<br><br>
+***Description:*** *sucessful propagation of new element*
 <br><br>
 
 
@@ -55,10 +66,9 @@ Detail how Generative AI was used during this lab.
 
 **Table 1: AI Tool Usage Log**
 
-| AI tool used    | Purpose                            | Prompt used                                           | Did you use the output "as is" or modify it? How?                        |
-| :-------------- | :--------------------------------- | :---------------------------------------------------- | :----------------------------------------------------------------------- |
-|  | |  |
-
+| AI tool used | Purpose                                | Prompt used                                                          | Did you use the output "as is" or modify it? How?                                        |
+| :----------- | :------------------------------------- | :------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| Claude       | Troubleshoot an error in the terminal  | Why is my terminal outputting this message? (image of terminal)      | I used the output as is, by following the troubleshooting methods it provided.           |
 
 <br><br>
 
@@ -68,6 +78,7 @@ Detail how Generative AI was used during this lab.
 In 2-3 sentences, reflect on the implications of AI assistance that you received this week. Consider academic integrity, security, or whether the AI obscured your understanding of the core concept.
 <br><br>
 
-**Reflection:**  
+**Reflection:**
+I didn't use too much AI this week, just used it to troubleshoot some terminal errors, saved me so much time. I think this was one of the most complicated tutorials, as I kept making so many syntax erros in the terminal and getting connection errors. I also found it a bit hard to use the browser vscode, as my codespace kept bugging. 
 <br><br>
 
