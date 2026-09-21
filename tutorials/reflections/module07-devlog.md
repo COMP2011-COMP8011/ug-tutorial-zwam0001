@@ -6,26 +6,28 @@ Provide a minimum of two screenshots OR one short GIF (under 10 seconds) demonst
 
 #1
 ![Image Alt Text](../img/tut7/t07proof1.png) 
-(1)
+
 <br><br>
 ***Description:*** *checking for sucessful connection*
 <br><br>
 
+#2
 ![Image Alt Text](../img/tut7/t07proof2.png) 
-(2)
+
 <br><br>
 ***Description:*** *adding a new element to table*
 <br><br>
 
+#3
 ![Image Alt Text](../img/tut7/t07proof3.png) 
-(3)
+
 <br><br>
 ***Description:*** *sucessful propagation of new element*
 <br><br>
 
 
 **Extension task completed successfully:** [Yes / No]
-YES
+NO
 
 <br><br>
 
@@ -38,7 +40,7 @@ Identify the specific theoretical concepts from this week’s lectures that you 
 <br><br>
 
 **Implementation:** 
-Connecting to MongoDB is an asynchronous network operation. connectDB waits for mongoose.connect() inside a try/catch. If the connection fails, it exits the process rather thatn leaving a running server with no database. 
+Connecting to MongoDB is an asynchronous network operation. connectDB waits for ```mongoose.connect()``` inside a ```try/catch```. If the connection fails, it exits the process rather thatn leaving a running server with no database. 
 <br><br>
 
 
@@ -50,7 +52,7 @@ Connecting to MongoDB is an asynchronous network operation. connectDB waits for 
 <br><br>
 
 **Implementation:** 
-In models/user.js, the user schema used required: [true, "message"] to enforce mandatory fields with a readable error. It used unique: true to block duplicate emails and default to fill in role automatically. The duplicate-email E11000 error seen when re-sending the request came from unique: true 
+In ```models/user.js```, the user schema used ```required: [true, "message"]``` to enforce mandatory fields with a readable error. It used ```unique: true to block duplicate emails and default``` to fill in role automatically. The ```duplicate-email E11000``` error seen when re-sending the request came from ```unique: true``` 
 <br><br>
 
 
